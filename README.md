@@ -17,14 +17,13 @@ This portfolio documents my hands-on cybersecurity learning journey through prac
 - Nmap
 - Wireshark
 - Metasploit
-- [Add more as you use them]
 
 ## Challenges Completed
 1. [Challenge Name] - Brief description
 2. [Challenge Name] - Brief description
 
 ## Contact
-- Email: [Your FedUni Email]
+- Email: [modassari@students.federation.edu.au]
 - LinkedIn: [If you have one]
 
 ---
