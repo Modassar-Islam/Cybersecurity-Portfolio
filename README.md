@@ -24,7 +24,6 @@ This portfolio documents my hands-on cybersecurity learning journey through prac
 
 ## Contact
 - Email: [modassari@students.federation.edu.au]
-- LinkedIn: [If you have one]
 
 ---
 *This portfolio is part of my final project for cybersecurity fundamentals [1502] at Federation University Australia*
