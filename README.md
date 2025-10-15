@@ -23,7 +23,7 @@ This project focused on investigating a high-severity port scanning alert using 
 ## Steps
 
 ### Step 1: Initial Alert Detection
-![SIEM Alerts Dashboard](screenshots/01-alert-dashboard.png)
+![SIEM Alerts Dashboard](screenshots/Screenshot 1.png)
 
 *Ref 1: SIEM Alerts Dashboard - Alert #167 Port Scanning Activity from IP 10.0.0.8*
 
