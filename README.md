@@ -24,7 +24,7 @@ This project focused on investigating a high-severity port scanning alert using 
 
 ### Step 1: Initial Alert Detection
 
-<img width="927" height="962" alt="Screenshot 1" src="[https://github.com/Modassar-Islam/Cybersecurity-Portfolio/blob/main/Screenshots/Screenshot%201.png]" />
+<img width="927" height="962" alt="Screenshot 1" src="https://github.com/user-attachments/assets/30b4c4a1-dc90-4548-9ecc-3f8338314566" />
 
 *Ref 1: SIEM Alerts Dashboard - Alert #167 Port Scanning Activity from IP 10.0.0.8*
 
@@ -33,7 +33,8 @@ Identified high-severity alert indicating port scanning from internal IP 10.0.0.
 ---
 
 ### Step 2: Alert Acknowledgment
-![Alert Acknowledged](screenshots/02-alert-acknowledged.png)
+<img width="730" height="153" alt="Screenshot 2" src="https://github.com/user-attachments/assets/838b2a91-f89e-42dd-b336-007e6e178d91" />
+
 
 *Ref 2: Alert status changed to "Investigate in SIEM"*
 
@@ -42,7 +43,8 @@ Alert acknowledged and transitioned to investigation phase for detailed SIEM ana
 ---
 
 ### Step 3: SIEM Investigation
-![SIEM Traffic Analysis](screenshots/03-siem-analysis.png)
+<img width="997" height="711" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8e4b6943-d878-4f71-b9b3-d86af7cb6201" />
+
 
 *Ref 3: SIEM showing 4,300 events from IP 10.0.0.8 to 10.0.0.3*
 
@@ -58,7 +60,8 @@ Multiple peaks indicated automated scanning behavior.
 ---
 
 ### Step 4: Traffic Pattern Analysis
-![Traffic Patterns](screenshots/04-traffic-patterns.png)
+<img width="1004" height="651" alt="Screenshot 4" src="https://github.com/user-attachments/assets/240a2e0e-1bd5-4117-a3dd-72268b1ce775" />
+
 
 *Ref 4: Traffic pattern analysis confirming automated scanning*
 
@@ -67,7 +70,8 @@ All 4,300 connections from single source (10.0.0.8) targeting multiple ports. So
 ---
 
 ### Step 5: Incident Classification Decision
-![True Positive vs False Positive](screenshots/05-decision-point.png)
+<img width="980" height="591" alt="Screenshot 5" src="https://github.com/user-attachments/assets/b18e5bdf-b58d-4120-925b-b600ec412efe" />
+
 
 *Ref 5: Classification decision point*
 
@@ -80,7 +84,8 @@ Determined classification:
 ---
 
 ### Step 6: Investigation Resolution
-![Investigation Complete](screenshots/06-investigation-result.png)
+<img width="992" height="516" alt="Screenshot 6" src="https://github.com/user-attachments/assets/ba1855d0-1f81-4e52-aeed-4e4c1338ea2b" />
+
 
 *Ref 6: Investigation resolution confirmation*
 
@@ -91,7 +96,8 @@ Confirmed authorized Nessus scan from 10.0.0.8 to JOE PC by internal security te
 ---
 
 ### Step 7: Alert Closure
-![Alert Closed](screenshots/07-alert-closed.png)
+<img width="988" height="250" alt="Screenshot 7" src="https://github.com/user-attachments/assets/efd98adf-61ea-4f51-a1cf-8187a660e0c6" />
+
 
 *Ref 7: Alert closed with RESOLVED status*
 
@@ -100,7 +106,8 @@ Alert #167 closed and marked as RESOLVED - authorized activity documented.
 ---
 
 ### Step 8: Challenge Completion
-![Challenge Complete](screenshots/08-challenge-complete.png)
+<img width="1512" height="712" alt="Screenshot 8" src="https://github.com/user-attachments/assets/3a482cb2-2ff5-4627-b020-558a44e41d44" />
+
 
 *Ref 8: TryHackMe completion*
 
