@@ -28,9 +28,11 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 <img width="980" height="591" alt="Screenshot 2025-10-09 134205" src="https://github.com/user-attachments/assets/03ba6275-4337-43b8-906a-38d6248d6ef4" />
 
+<img width="992" height="516" alt="Screenshot 2025-10-09 134239 - Copy" src="https://github.com/user-attachments/assets/338f6b63-e4ae-4b45-8627-4955f608122c" />
 
-Every screenshot should have some text explaining what the screenshot is about.
+<img width="988" height="250" alt="Screenshot 2025-10-09 134323" src="https://github.com/user-attachments/assets/85677c33-e1cb-49ac-b6aa-624934957587" />
 
-Example below.
+<img width="1512" height="712" alt="Screenshot 2025-10-09 134350" src="https://github.com/user-attachments/assets/6308f478-d3c2-4ebc-a299-bb99fd56e485" />
+
 
 *Ref 1: Network Diagram*
