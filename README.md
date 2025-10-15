@@ -188,7 +188,7 @@ This repository documents practical SOC operations and incident response skills:
 
 For more cybersecurity projects and demonstrations, please visit my complete portfolio:
 
-- [GitHub Portfolio](#)
+- [GitHub Portfolio](https://modassar-islam.github.io/Cybersecurity-Portfolio/)
 - [TryHackMe Profile](#)
 - [LinkedIn](#)
 
