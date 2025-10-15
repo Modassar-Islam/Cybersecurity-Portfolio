@@ -1,29 +1,26 @@
-# Cybersecurity Portfolio - Federation University
-
 ## About This Portfolio
 This portfolio documents my hands-on cybersecurity learning journey through practical challenges and real-world scenarios completed as part of my final project at Federation University Australia.
+
+## Objective
+
+The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+
+### Skills Learned
+
+- Advanced understanding of SIEM concepts and practical application.
+- Proficiency in analyzing and interpreting network logs.
+- Ability to generate and recognize attack signatures and patterns.
+- Enhanced knowledge of network protocols and security vulnerabilities.
+- Development of critical thinking and problem-solving skills in cybersecurity.
 
 ## Platform Used
 - **TryHackMe** - Interactive cybersecurity training platform
 
-## Skills Demonstrated
-- Vulnerability Scanning
-- Incident Response
-- Network Security
-- Digital Forensics
-- NIST Cybersecurity Framework
+## Steps
+drag & drop screenshots here or use imgur and reference them using imgsrc
 
-## Tools & Technologies
-- Nmap
-- Wireshark
-- Metasploit
+Every screenshot should have some text explaining what the screenshot is about.
 
-## Challenges Completed
-1. [Challenge Name] - Brief description
-2. [Challenge Name] - Brief description
+Example below.
 
-## Contact
-- Email: [modassari@students.federation.edu.au]
-
----
-*This portfolio is part of my final project for cybersecurity fundamentals [1502] at Federation University Australia*
+*Ref 1: Network Diagram*
