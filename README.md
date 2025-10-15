@@ -1,38 +1,203 @@
-## About This Portfolio
-This portfolio documents my hands-on cybersecurity learning journey through practical challenges and real-world scenarios completed as part of my final project at Federation University Australia.
+# SOC Fundamentals - Port Scanning Detection Lab
 
 ## Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+This project focused on investigating a high-severity port scanning alert using SIEM analysis. The goal was to analyze network logs, identify attack patterns, and classify the incident as either a true positive or false positive, demonstrating practical SOC analyst skills.
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Understanding of SOC analyst workflows and alert triage procedures
+- Proficiency in analyzing and interpreting SIEM logs and network traffic
+- Ability to recognize port scanning patterns and attack signatures
+- Enhanced knowledge of incident response and decision-making processes
+- Understanding of legitimate security tools vs. malicious activity
+- Development of critical thinking and problem-solving skills in security operations
 
-## Platform Used
-- **TryHackMe** - Interactive cybersecurity training platform
+### Tools Used
+
+- TryHackMe - Hands-on cybersecurity training platform
+- SIEM system for log ingestion and security event analysis
+- Network traffic analysis tools for examining connection patterns
+- Alert management dashboard for incident tracking and response
 
 ## Steps
 
-<img width="927" height="962" alt="Screenshot 2025-10-09 133453 - Copy" src="https://github.com/user-attachments/assets/abfea0cd-ad48-49f8-b21f-db84e6179e16" />
+### Step 1: Initial Alert Detection
+![SIEM Alerts Dashboard](screenshots/01-alert-dashboard.png)
 
-<img width="730" height="153" alt="Screenshot 2025-10-09 133819 - Copy" src="https://github.com/user-attachments/assets/80b04344-86b6-44c5-8f97-36333b21c5a9" />
+*Ref 1: SIEM Alerts Dashboard - Alert #167 Port Scanning Activity from IP 10.0.0.8*
 
-<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/84985a17-ad2d-44f3-8aac-dc54b3a9ea2b" />
+Identified high-severity alert indicating port scanning from internal IP 10.0.0.8. Clicked ACKNOWLEDGE to take ownership of the investigation.
 
-<img width="1004" height="651" alt="Screenshot 2025-10-09 134128" src="https://github.com/user-attachments/assets/87f89d2d-f170-41d5-a803-ecc23ba5a5d5" />
+---
 
-<img width="980" height="591" alt="Screenshot 2025-10-09 134205" src="https://github.com/user-attachments/assets/03ba6275-4337-43b8-906a-38d6248d6ef4" />
+### Step 2: Alert Acknowledgment
+![Alert Acknowledged](screenshots/02-alert-acknowledged.png)
 
-<img width="992" height="516" alt="Screenshot 2025-10-09 134239 - Copy" src="https://github.com/user-attachments/assets/338f6b63-e4ae-4b45-8627-4955f608122c" />
+*Ref 2: Alert status changed to "Investigate in SIEM"*
 
-<img width="988" height="250" alt="Screenshot 2025-10-09 134323" src="https://github.com/user-attachments/assets/85677c33-e1cb-49ac-b6aa-624934957587" />
+Alert acknowledged and transitioned to investigation phase for detailed SIEM analysis.
 
-<img width="1512" height="712" alt="Screenshot 2025-10-09 134350" src="https://github.com/user-attachments/assets/6308f478-d3c2-4ebc-a299-bb99fd56e485" />
+---
 
+### Step 3: SIEM Investigation
+![SIEM Traffic Analysis](screenshots/03-siem-analysis.png)
 
-*Ref 1: Network Diagram*
+*Ref 3: SIEM showing 4,300 events from IP 10.0.0.8 to 10.0.0.3*
+
+Analysis revealed:
+- **Total Events:** 4,300 hits over 5 hours
+- **Source:** 10.0.0.8 (NESSUS)
+- **Destination:** 10.0.0.3 (JOE PC)
+- **Ports:** 443, 53, 22
+- **Time:** June 12-13, 2024
+
+Multiple peaks indicated automated scanning behavior.
+
+---
+
+### Step 4: Traffic Pattern Analysis
+![Traffic Patterns](screenshots/04-traffic-patterns.png)
+
+*Ref 4: Traffic pattern analysis confirming automated scanning*
+
+All 4,300 connections from single source (10.0.0.8) targeting multiple ports. Source hostname "NESSUS" identified as legitimate vulnerability scanner.
+
+---
+
+### Step 5: Incident Classification Decision
+![True Positive vs False Positive](screenshots/05-decision-point.png)
+
+*Ref 5: Classification decision point*
+
+Determined classification:
+- **Option A:** True Positive (malicious)
+- **Option B:** False Positive (authorized)
+
+**Decision:** False Positive - authorized internal vulnerability assessment by security team using Nessus scanner.
+
+---
+
+### Step 6: Investigation Resolution
+![Investigation Complete](screenshots/06-investigation-result.png)
+
+*Ref 6: Investigation resolution confirmation*
+
+Confirmed authorized Nessus scan from 10.0.0.8 to JOE PC by internal security team.
+
+**Flag Captured:** THM{000_INTRO_TO_SOC}
+
+---
+
+### Step 7: Alert Closure
+![Alert Closed](screenshots/07-alert-closed.png)
+
+*Ref 7: Alert closed with RESOLVED status*
+
+Alert #167 closed and marked as RESOLVED - authorized activity documented.
+
+---
+
+### Step 8: Challenge Completion
+![Challenge Complete](screenshots/08-challenge-complete.png)
+
+*Ref 8: TryHackMe completion*
+
+Completed with 128 points, 7/7 tasks, Easy difficulty.
+
+---
+
+## Key Takeaways
+
+- Triaged and investigated high-severity SIEM alert
+- Analyzed 4,300+ network events to identify patterns
+- Distinguished authorized scanning from malicious activity
+- Applied proper incident response procedures
+- Documented findings with appropriate alert disposition
+
+### Lessons Learned
+1. Context is critical - recognizing legitimate security tools prevents false escalations
+2. Internal IP scanning requires different analysis than external threats
+3. Coordination with security teams reduces alert fatigue
+4. Proper documentation is essential for SOC operations
+
+---
+
+## Project Information
+
+**Platform:** TryHackMe - SOC Fundamentals Room  
+**Completion Date:** June 2024  
+**Course:** ITECH1502 Cybersecurity Fundamentals  
+**Institution:** Federation University Australia  
+**Flag Achieved:** THM{000_INTRO_TO_SOC}
+
+---
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| TryHackMe | Hands-on cybersecurity training platform |
+| SIEM System | Security event log aggregation and analysis |
+| Network Analysis | Traffic pattern examination and investigation |
+| Alert Management | Incident tracking and response workflow |
+
+---
+
+## Repository Structure
+
+```
+soc-fundamentals-investigation/
+│
+├── README.md                          # Project documentation
+├── screenshots/                       # Investigation screenshots
+│   ├── 01-alert-dashboard.png
+│   ├── 02-alert-acknowledged.png
+│   ├── 03-siem-analysis.png
+│   ├── 04-traffic-patterns.png
+│   ├── 05-decision-point.png
+│   ├── 06-investigation-result.png
+│   ├── 07-alert-closed.png
+│   └── 08-challenge-complete.png
+│
+└── documentation/
+    └── project-report.pdf             # Full project report (5 pages)
+```
+
+---
+
+## How to Use This Repository
+
+This repository documents practical SOC operations and incident response skills:
+- Alert investigation methodology
+- SIEM log analysis
+- Network traffic pattern recognition
+- Incident classification
+
+---
+
+## Additional Projects
+
+For more cybersecurity projects and demonstrations, please visit my complete portfolio:
+
+- [GitHub Portfolio](#)
+- [TryHackMe Profile](#)
+- [LinkedIn](#)
+
+---
+
+## Acknowledgments
+
+- **TryHackMe** for providing excellent hands-on cybersecurity training
+- **Federation University Australia** for the ITECH1502 Cybersecurity Fundamentals course
+- **Muhammad Imran** for project guidance and instruction
+
+---
+
+## License
+
+This project is part of academic coursework for ITECH1502 Cybersecurity Fundamentals at Federation University Australia.
+
+---
+
+*Last Updated: October 2025*
