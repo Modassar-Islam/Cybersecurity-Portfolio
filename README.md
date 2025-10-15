@@ -17,7 +17,14 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - **TryHackMe** - Interactive cybersecurity training platform
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+<img width="988" height="250" alt="Screenshot 2025-10-09 134323" src="https://github.com/user-attachments/assets/60715bd6-24c2-41b4-a549-47d3ca5bdb20" />
+
+<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/dcf4b4de-b0fd-4ed5-8b9e-8185b244935e" />
+
+<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/e0635141-23ee-42a6-99c1-ca3b410cf636" />
+
+
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
