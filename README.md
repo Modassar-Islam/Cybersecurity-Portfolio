@@ -189,8 +189,7 @@ This repository documents practical SOC operations and incident response skills:
 For more cybersecurity projects and demonstrations, please visit my complete portfolio:
 
 - [GitHub Portfolio](https://modassar-islam.github.io/Cybersecurity-Portfolio/)
-- [TryHackMe Profile](#)
-- [LinkedIn](#)
+- [TryHackMe Profile](https://tryhackme.com/p/modassari)
 
 ---
 
@@ -198,7 +197,6 @@ For more cybersecurity projects and demonstrations, please visit my complete por
 
 - **TryHackMe** for providing excellent hands-on cybersecurity training
 - **Federation University Australia** for the ITECH1502 Cybersecurity Fundamentals course
-- **Muhammad Imran** for project guidance and instruction
 
 ---
 
