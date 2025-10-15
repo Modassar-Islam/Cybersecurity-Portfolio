@@ -17,13 +17,16 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - **TryHackMe** - Interactive cybersecurity training platform
 
 ## Steps
-<img width="988" height="250" alt="Screenshot 2025-10-09 134323" src="https://github.com/user-attachments/assets/60715bd6-24c2-41b4-a549-47d3ca5bdb20" />
 
-<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/dcf4b4de-b0fd-4ed5-8b9e-8185b244935e" />
+<img width="927" height="962" alt="Screenshot 2025-10-09 133453 - Copy" src="https://github.com/user-attachments/assets/abfea0cd-ad48-49f8-b21f-db84e6179e16" />
 
-<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/e0635141-23ee-42a6-99c1-ca3b410cf636" />
+<img width="730" height="153" alt="Screenshot 2025-10-09 133819 - Copy" src="https://github.com/user-attachments/assets/80b04344-86b6-44c5-8f97-36333b21c5a9" />
 
+<img width="997" height="711" alt="Screenshot 2025-10-09 133922 - Copy" src="https://github.com/user-attachments/assets/84985a17-ad2d-44f3-8aac-dc54b3a9ea2b" />
 
+<img width="1004" height="651" alt="Screenshot 2025-10-09 134128" src="https://github.com/user-attachments/assets/87f89d2d-f170-41d5-a803-ecc23ba5a5d5" />
+
+<img width="980" height="591" alt="Screenshot 2025-10-09 134205" src="https://github.com/user-attachments/assets/03ba6275-4337-43b8-906a-38d6248d6ef4" />
 
 
 Every screenshot should have some text explaining what the screenshot is about.
